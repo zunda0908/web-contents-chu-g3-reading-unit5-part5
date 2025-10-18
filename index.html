@@ -36,7 +36,7 @@ html, body {
   top: 0;
   width: 97.4px;
   height: 1080px;
-  background-color: #808080;
+  background-color: #2f5975;
   z-index: 1050;
 }
 #grayZoneLeft { left: 0; display:block; }
@@ -96,13 +96,13 @@ html, body {
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 .gradeBtn.selected {
-  background-color: #808080;
+  background-color: #2f5975;
   color: white;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 .gradeBtn.unselected {
   background-color: white;
-  color: #808080;
+  color: #2f5975;
   box-shadow: 0 0 5px rgba(0,0,0,0.15);
 }
 
@@ -150,7 +150,7 @@ html, body {
   cursor:pointer;
   border:none;
   border-radius:6px;
-  background:#808080;
+  background:#2f5975;
   color:white;
 }
 </style>
@@ -165,12 +165,12 @@ html, body {
   <img id="closeBtn" src="close.svg" alt="閉じる" />
 
   <div id="gradeSelectorLeft" class="gradeSelector">
-    <button class="gradeBtn unselected" data-grade="1">再生/停止</button>
+    <button class="gradeBtn unselected" data-grade="1">再生<br>/停止</button>
     <button class="gradeBtn unselected" data-grade="2">訳表示</button>
     <button class="gradeBtn selected" data-grade="3">ヘルプ</button>
   </div>
   <div id="gradeSelectorRight" class="gradeSelector">
-    <button class="gradeBtn unselected" data-grade="1">再生/停止</button>
+    <button class="gradeBtn unselected" data-grade="1">再生/<br>停止</button>
     <button class="gradeBtn unselected" data-grade="2">訳表示</button>
     <button class="gradeBtn selected" data-grade="3">ヘルプ</button>
   </div>
